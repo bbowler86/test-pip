@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-setup(name='test-pip-package',
+setup(name='testpip',
       version='0.0.1',
       description='Test Pip Package',
       author='Brian J. Bowler',
       url='https://localhost',
-      packages=['test-pip-package'],
+      packages=['testpip'],
       install_requires=['nltk'])
